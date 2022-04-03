@@ -12,17 +12,17 @@ Python programming language allows to use one loop inside another loop. Followin
 ### Loop Control Statements
 Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed. Python supports the following control statements.
 
-## Break
+#### Break
 Break brings control out of loop
 
-## Continue
+#### Continue
 Continue returns the control to the beginning of the loop
 
 ### ELSE For Loop
-## ELSE After FOR
+#### ELSE After FOR
 In Python, the else function is also known after for. The function is prioritized on the loop search - to provide program exits when search is not found. For loops also have an else clause which most of us are unfamiliar with. The else clause executes after the loop completes normally. This means that the loop did not encounter a break statement. The common construct is to run a loop and search for an item. If the item is found, we break out of the loop using the break statement. There are two scenarios in which the loop may end. The first one is when the item is found and break is encountered. The second scenario is that the loop ends without encountering a break statement.
 
-## ELSE After WHILE
+#### ELSE After WHILE
 In the while statement, the else statement block will always be executed when the condition in while becomes false. With the else statement we can run a block of code once when the condition no longer is true.
 
 ### PASS
@@ -33,7 +33,7 @@ Making list from inline loop and if
 
 ### ERROR & EXCEPTION HANDLING
 Two types of errors based on their occurrence:
-## Syntax errors
+#### Syntax errors
 Syntax error occurs when python can't understand what you're commanding
 Some most common causes of syntax errors:
 - Misspelled reserved keywords
@@ -44,7 +44,7 @@ Some most common causes of syntax errors:
 - Invalid variables declaration
 - Invalid function calling or defining
 
-## Exceptions
+#### Exceptions
 Exception are also called Runtime errors
 + Even if we have written a statement or expression from python correctly, there is a possibility that an error will occur when the command is executed
 - Errors that occur while the process is in progress are called exceptions and can be fatal if not handled
